@@ -3,12 +3,11 @@ import java.util.Scanner;
 public class AssignmentLogicalOperators {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        int input;
         int lucky = 607;
         System.out.println("The luckynumber is: " + lucky + "\n\n");
 
         System.out.print("Number: ");
-        input = s.nextInt();
+        int input = s.nextInt();
 
         if (input % 10 == 0) {
             System.out.println("The number is round");
