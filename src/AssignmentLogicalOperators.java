@@ -10,10 +10,15 @@ public class AssignmentLogicalOperators {
         System.out.print("Number: ");
         input = s.nextInt();
 
+        if (input % 10 == 0) {
+            System.out.println("The number is round");
+        } else {
+            System.out.println("The number is not round");
+        }
         if (input % 2 == 0) {
             System.out.println("The number is even");
         } else {
-            System.out.println("The number is round");
+            System.out.println("The number is not even");
         }
         if (lucky == input) {
             System.out.println("The number is equal to the lucky number!");
